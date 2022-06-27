@@ -1,6 +1,6 @@
 {
   "name": "bannedcryptoclient",
-  "homepage": "bannedcrypto.com",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
