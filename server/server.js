@@ -52,7 +52,6 @@ app.post("/api/insert_complaint", (req, res) => {
     }
   );
 
-  console.log("Made it passed that 2");
 });
 
 //Quick Test
