@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import Button from 'react-bootstrap/Button';
+import { DayPicker } from 'react-day-picker';
+import { format, setDate } from 'date-fns';
+import 'react-day-picker/dist/style.css';
 
-import DatePicker from "react-datepicker";
 
 const RegisterDate = (props) => {
   const { userFlow, setUserFlow, DateOfEvent, setDateOfEvent } = props;
@@ -13,21 +15,34 @@ const RegisterDate = (props) => {
     }
   };
 
-  console.log(userFlow);
+
 
   return (
     <>
-      <h3>Tell us when this happened</h3>
+    <div>
+    <h3>Tell us when this happened</h3>
+    </div>
+      <br/>
+      <div>
+      <DayPicker
+      mode="single"
+      selected={DateOfEvent}
+      onSelect={setDateOfEvent}
+    />      </div>
+    
+
+
+<div>
+<Button onClick={HandleSubmit}>Next</Button>
+
+</div>
+
+        
 
 
 
 
-        <DatePicker locale="es" selected={DateOfEvent} onChange={(date) => setDateOfEvent(date)} />
-
-
-
-
-      <Button onClick={HandleSubmit}>Next</Button>
+  
     </>
   );
 };
