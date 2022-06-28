@@ -1,5 +1,7 @@
 {
   "name": "server",
+  "homepage": "http://bannedcrypto.com",
+
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
