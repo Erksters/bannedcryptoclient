@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 import { TextField } from "@mui/material";
 import swal from "sweetalert";
@@ -9,12 +9,12 @@ import { search_complaint, search_redirect } from "../api";
 
 const Search = () => {
   const params = new URLSearchParams(window.location.hash.substring(9));
-  console.log(window.location)
-  console.log("params", params)
+  console.log(window.location);
+  console.log("params", params);
   const [WalletAddress, setWalletAddress] = useState(params.get("wallet"));
-  console.log("WalletAddress", WalletAddress)
+  console.log("WalletAddress", WalletAddress);
   const [Coin, setCoin] = useState(params.get("coin"));
-  console.log("Coin", Coin)
+  console.log("Coin", Coin);
   const [Complaints, setComplaints] = useState([]);
 
   useEffect(() => {
@@ -41,7 +41,7 @@ const Search = () => {
       Coin !== 0
     ) {
       window.location.href =
-      search_redirect + "wallet=" + WalletAddress + "&coin=" + Coin;
+        search_redirect + "wallet=" + WalletAddress + "&coin=" + Coin;
     } else {
       swal(
         "Oops!",

@@ -1,6 +1,5 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
-
+import Button from "react-bootstrap/Button";
 
 const GettingStarted = (props) => {
   const { UserFlow, setUserFlow } = props;

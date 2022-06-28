@@ -1,9 +1,8 @@
-import React, {useState} from "react";
-import Button from 'react-bootstrap/Button';
-import { DayPicker } from 'react-day-picker';
-import { format, setDate } from 'date-fns';
-import 'react-day-picker/dist/style.css';
-
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import { DayPicker } from "react-day-picker";
+import { format, setDate } from "date-fns";
+import "react-day-picker/dist/style.css";
 
 const RegisterDate = (props) => {
   const { userFlow, setUserFlow, DateOfEvent, setDateOfEvent } = props;
@@ -15,35 +14,24 @@ const RegisterDate = (props) => {
     }
   };
 
-
-
   return (
-    <>
     <div>
-    <h3>Tell us when this happened</h3>
+      <div className="centerDiv">
+        <h3>Tell us when this happened</h3>
+      </div>
+      <br />
+      <div className="centerDiv">
+        <DayPicker
+          mode="single"
+          selected={DateOfEvent}
+          onSelect={setDateOfEvent}
+        />
+      </div>
+
+      <div className="centerDiv">
+        <Button onClick={HandleSubmit}>Next</Button>
+      </div>
     </div>
-      <br/>
-      <div>
-      <DayPicker
-      mode="single"
-      selected={DateOfEvent}
-      onSelect={setDateOfEvent}
-    />      </div>
-    
-
-
-<div>
-<Button onClick={HandleSubmit}>Next</Button>
-
-</div>
-
-        
-
-
-
-
-  
-    </>
   );
 };
 

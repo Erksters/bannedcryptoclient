@@ -29,13 +29,18 @@ const SummarizeAndUpload = (props) => {
   };
 
   return (
-    <>
-      <h3>Summarize and Complete the ReCAPTCHA</h3>
-      <ReCAPTCHA
-        sitekey="6LfUjXogAAAAAD3fbHNYCXOXT_DKPJXlDtqqhyLT"
-        onChange={HandleSubmit}
-      />
-    </>
+    <div>
+      <br />
+      <div className="centerDiv">
+        <h3>Summarize and Complete the ReCAPTCHA</h3>
+      </div>
+      <div className="centerDiv">
+        <ReCAPTCHA
+          sitekey="6LfUjXogAAAAAD3fbHNYCXOXT_DKPJXlDtqqhyLT"
+          onChange={HandleSubmit}
+        />
+      </div>
+    </div>
   );
 };
 

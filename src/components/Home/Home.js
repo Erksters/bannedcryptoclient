@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import {  show_recent_100 } from "../api"; 
+import { show_recent_100 } from "../api";
 const Home = () => {
   const [showRecent100, setShowRecent100] = useState();
 
   useEffect(() => {
-    fetch( show_recent_100)
+    fetch(show_recent_100)
       .then((response) => response.json())
       .then((data) => {
         setShowRecent100(data);
