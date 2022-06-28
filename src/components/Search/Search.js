@@ -9,8 +9,11 @@ import { search_complaint, search_redirect } from "../api";
 
 const Search = () => {
   const params = new URLSearchParams(window.location.search);
+  console.log("params", params)
   const [WalletAddress, setWalletAddress] = useState(params.get("wallet"));
+  console.log("WalletAddress", WalletAddress)
   const [Coin, setCoin] = useState(params.get("coin"));
+  console.log("Coin", Coin)
   const [Complaints, setComplaints] = useState([]);
 
   useEffect(() => {
