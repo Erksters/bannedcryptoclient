@@ -96,6 +96,7 @@ app.post("/api/search_by_wallet_with_exact", (req, res) => {
         if (error) {
           throw error;
         }
+        console.log("Check this out");
         res.json(results);
       }
     );
