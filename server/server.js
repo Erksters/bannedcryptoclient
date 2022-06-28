@@ -83,7 +83,7 @@ app.post("/api/search_by_wallet_with_exact", (req, res) => {
     connection.query(
       `
         SELECT Comp.ID, Comp.Notes, Comp.Primitive_Date
-        FROM banned_crypto.complaints as Comp
+        FROM banned_crypto.Complaints as Comp
         Inner Join Wallets
         ON Wallets.ID = Comp.Wallet_ID
         Where Wallet_ID = (Select W.ID 
