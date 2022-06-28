@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-
+import { server } from "../api"; 
 const Home = () => {
   const [top100, settop100] = useState();
 
   useEffect(() => {
-    fetch("/api/show_recent_100")
+    fetch( server + "/api/show_recent_100")
       .then((response) => response.json())
       .then((data) => {
         settop100(data);
