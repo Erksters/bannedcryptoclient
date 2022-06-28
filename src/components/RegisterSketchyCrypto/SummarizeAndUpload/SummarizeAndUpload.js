@@ -1,5 +1,6 @@
 import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { post_complaint } from "../../api";
 const SummarizeAndUpload = (props) => {
   const { userFlow, setUserFlow, Notes, WalletAddress, Coin, DateOfEvent } =
     props;
@@ -15,7 +16,7 @@ const SummarizeAndUpload = (props) => {
     );
     formData.append("Notes", Notes);
 
-    await fetch("/api/insert_complaint", {
+    await fetch(post_complaint, {
       method: "POST",
       body: formData,
     })

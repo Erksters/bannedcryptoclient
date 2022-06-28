@@ -5,6 +5,7 @@ import { TextField } from "@mui/material";
 import swal from "sweetalert";
 import Results from "./Results";
 import CoinPicker from "../RegisterSketchyCrypto/RegisterCoin/CoinPicker";
+import { search_complaint } from "../api";
 
 const Search = () => {
   const params = new URLSearchParams(window.location.search);
@@ -16,7 +17,7 @@ const Search = () => {
     var formData = new FormData();
     formData.append("WalletAddress", WalletAddress);
     formData.append("Coin_ID", Coin);
-    fetch("/api/search_by_wallet_with_exact", {
+    fetch(search_complaint, {
       method: "POST",
       body: formData,
     })

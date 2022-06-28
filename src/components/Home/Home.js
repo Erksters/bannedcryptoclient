@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
-import {  Server } from "../api"; 
+import {  show_recent_100 } from "../api"; 
 const Home = () => {
-  const [top100, settop100] = useState();
+  const [showRecent100, setShowRecent100] = useState();
 
   useEffect(() => {
-    fetch( Server + "/api/show_recent_100")
+    fetch( show_recent_100)
       .then((response) => response.json())
       .then((data) => {
-        settop100(data);
+        setShowRecent100(data);
       });
   }, []);
 
-  if (top100 === undefined) {
+  if (showRecent100 === undefined) {
     return <div>loading</div>;
   }
 
@@ -35,7 +35,7 @@ const Home = () => {
             </thead>
 
             <tbody>
-              {top100.map((entry, index) => (
+              {showRecent100.map((entry, index) => (
                 <tr key={index}>
                   <td>{entry.ID}</td>
                   <td>{entry.address}</td>
