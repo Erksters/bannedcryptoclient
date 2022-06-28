@@ -8,8 +8,3 @@ export const search_complaint = base_url + '/api/search_by_wallet_with_exact'
 
 export const search_redirect = "http://bannedcrypto.com/#/search?";
 
-// const get_karen_trend = base_url + 'get_karen_trend'
-
-// export default get_total_count_by_name
-
-// export var Server = "http://localhost:5000";     
