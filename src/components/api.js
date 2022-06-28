@@ -1,8 +1,3 @@
+export  const Server = "http://3.19.108.172:5000";    
 
-var server = "3.19.108.172:5000";
-
-if(false){
-    var server = "http://localhost:5000";     
-}
-
-export default server
+// export var Server = "http://localhost:5000";     
