@@ -1,10 +1,12 @@
 const mysql = require("mysql");
 const express = require("express");
 const formidable = require("express-formidable");
+const cors = require("cors");
 
 var app = express();
 
 app.use(formidable());
+app.use(cors())
 
 var connection = mysql.createConnection({
   host: "ls-f03221ff88128d4401cef40d51ea691e6f08dca4.cppsjjvfoag8.us-east-2.rds.amazonaws.com",
