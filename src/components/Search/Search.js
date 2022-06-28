@@ -8,8 +8,8 @@ import CoinPicker from "../RegisterSketchyCrypto/RegisterCoin/CoinPicker";
 import { search_complaint, search_redirect } from "../api";
 
 const Search = () => {
-  const params = new URLSearchParams(window.location.href);
-  console.log(window.location)
+  const params = new URLSearchParams(window.location.hash);
+  console.log(window.location.hash)
   console.log("params", params)
   const [WalletAddress, setWalletAddress] = useState(params.get("wallet"));
   console.log("WalletAddress", WalletAddress)
