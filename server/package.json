@@ -1,7 +1,6 @@
 {
   "name": "server",
   "homepage": "http://bannedcrypto.com",
-
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -14,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-formidable": "^1.2.0",
     "mysql": "^2.18.1"
