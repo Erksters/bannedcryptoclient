@@ -1,6 +1,7 @@
 {
   "name": "bannedcryptoclient",
   "homepage": "http://bannedcrypto.com",
+  "proxy": "http://bannedcrypto.com:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
