@@ -9,7 +9,7 @@ const SummarizeAndUpload = (props) => {
     console.log("Submitting Notes");
     var formData = new FormData();
     formData.append("WalletAddress", WalletAddress);
-    formData.append("Coin_ID", Coin.ID);
+    formData.append("Coin_ID", Coin);
     formData.append(
       "DateOfEvent",
       `${DateOfEvent.getFullYear()}-${DateOfEvent.getMonth()}-${DateOfEvent.getDate()}`
