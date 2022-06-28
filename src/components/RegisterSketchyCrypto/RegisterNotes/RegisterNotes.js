@@ -14,20 +14,27 @@ const RegisterNotes = (props) => {
   };
 
   return (
-    <>
-      <h3>Give us some notes for future users</h3>
-      <TextField
-        id="outlined-multiline-static"
-        label="Enter details below"
-        multiline
-        rows={4}
-        placeholder="Write a bit of info..."
-        onChange={(e) => {
-          setNotes(e.target.value);
-        }}
-      />
-      <Button onClick={HandleSubmit}>Next</Button>
-    </>
+    <div>
+      <div className="centerDiv">
+        <h3>Give us some notes for future users</h3>
+      </div>
+      <div className="centerDiv">
+        <TextField
+          id="outlined-multiline-static"
+          label="Enter details below"
+          multiline
+          rows={4}
+          placeholder="Write a bit of info..."
+          onChange={(e) => {
+            setNotes(e.target.value);
+          }}
+        />
+      </div>
+
+      <div className="centerDiv">
+        <Button onClick={HandleSubmit}>Next</Button>
+      </div>
+    </div>
   );
 };
 
