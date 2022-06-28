@@ -14,7 +14,7 @@ const RegisterSketchyCrypto = () => {
   const [Coin, setCoin] = useState(null);
   const [DateOfEvent, setDateOfEvent] = useState(new Date());
   console.log("Coin", Coin)
-  console.log("Coin.ID", Coin.ID)
+  
   //Getting Started
   if (UserFlow === 1) {
     return (
