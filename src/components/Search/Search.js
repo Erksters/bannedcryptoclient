@@ -5,7 +5,7 @@ import { TextField } from "@mui/material";
 import swal from "sweetalert";
 import Results from "./Results";
 import CoinPicker from "../RegisterSketchyCrypto/RegisterCoin/CoinPicker";
-import { search_complaint } from "../api";
+import { search_complaint, search_redirect } from "../api";
 
 const Search = () => {
   const params = new URLSearchParams(window.location.search);
@@ -37,7 +37,7 @@ const Search = () => {
       Coin !== 0
     ) {
       window.location.href =
-        "http://localhost:3000/search?wallet=" +
+      search_redirect + "wallet="
         WalletAddress +
         "&coin=" +
         Coin;
