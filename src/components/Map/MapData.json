@@ -1,0 +1,11 @@
+{
+  "Mexico": {
+    "Legal": "Yes",
+    "Notes": "here are some notes"
+  },
+
+  "United States": {
+    "Legal": "Yes",
+    "Notes": "Yes but pay taxes"
+  }
+}
