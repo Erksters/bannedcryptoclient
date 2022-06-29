@@ -22,7 +22,7 @@ const App = () => {
             <Route path="/register" component={RegisterSketchyCrypto} />
             <Route path="/map" component={Map} />
             {/* <Route path="/Stats" component={Stats}/>  */}
-            <Route exact path="/" component={Map} />
+            <Route exact path="/" component={Home} />
           </Switch>
         </Router>
       </div>

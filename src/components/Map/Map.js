@@ -10,8 +10,8 @@ import MapChart from "./MapChart";
 
 const Map = (props) => {
   const params = new URLSearchParams(window.location.hash.substring(9));
-  // const [countryName, setCountryName] = useState(params.get("country"));
-  const [countryName, setCountryName] = useState("United States");
+  const [countryName, setCountryName] = useState(params.get("country"));
+  // const [countryName, setCountryName] = useState("United States");
   const [content, setContent] = useState("");
 
   const HandleSubmit = () => {
