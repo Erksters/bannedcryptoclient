@@ -19,7 +19,7 @@ var db_con = mysql.createPool({
   connectTimeout: 1000000,
 });
 
-db_con.get(function (err) {
+db_con.getConnection(function (err) {
   if (err) throw err;
   console.log("Connected!");
 });
