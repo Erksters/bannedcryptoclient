@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "react-bootstrap/Button";
 import { DayPicker } from "react-day-picker";
-import { format, setDate } from "date-fns";
 import "react-day-picker/dist/style.css";
 
 const RegisterDate = (props) => {

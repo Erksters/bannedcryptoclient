@@ -1,4 +1,4 @@
-import React, { useState, memo } from "react";
+import React from "react";
 import swal from "sweetalert";
 import { map_redirect } from "../api";
 import "./styles.css";
@@ -9,21 +9,15 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 import features from "./features.json";
-import ReactTooltip from "react-tooltip";
 
 const MapChart = (props) => {
   const { setTooltipContent } = props;
-  const params = new URLSearchParams(window.location.hash.substring(9));
 
   const HandleClick = (countryName) => {
     if (countryName !== null || countryName !== "") {
       window.open(map_redirect + "country=" + countryName, "_blank").focus();
     } else {
-      swal(
-        "Oops!",
-        "It looks like you didn't add a wallet address. Pleas try again",
-        "error"
-      );
+      swal("Oops!", "Something went wrong. Please try again", "error");
     }
   };
 

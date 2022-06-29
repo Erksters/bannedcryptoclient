@@ -1,21 +1,13 @@
 import React, { useState } from "react";
-import swal from "sweetalert";
-import { map_redirect } from "../api";
 import MapData from "./MapData.json";
 import "./styles.css";
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
-import features from "./features.json";
 import ReactTooltip from "react-tooltip";
 import MapChart from "./MapChart";
 
 const Map = (props) => {
   const params = new URLSearchParams(window.location.hash.substring(5));
-  const [countryName, setCountryName] = useState(params.get("country"));
-  // const [countryName, setCountryName] = useState("United States");
+  const countryName = params.get("country");
   const [content, setContent] = useState("");
-
-  console.log("countryName", countryName);
-  console.log("window.location.hash", window.location.hash);
 
   if (countryName === null) {
     return (

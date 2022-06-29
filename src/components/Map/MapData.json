@@ -1,11 +1,970 @@
 {
-  "Mexico": {
-    "Legal": "Yes",
-    "Notes": "here are some notes"
-  },
-
-  "United States": {
-    "Legal": "Yes",
-    "Notes": "Yes but pay taxes"
-  }
+   "Afghanistan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Åland Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Albania" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Algeria" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "American Samoa" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "AndorrA" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Angola" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Anguilla" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Antarctica" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Antigua and Barbuda" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Argentina" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Armenia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Aruba" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Australia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Austria" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Azerbaijan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bahamas" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bahrain" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bangladesh" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Barbados" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Belarus" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Belgium" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Belize" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Benin" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bermuda" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bhutan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bolivia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bosnia and Herzegovina" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Botswana" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bouvet Island" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Brazil" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "British Indian Ocean Territory" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Brunei Darussalam" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Bulgaria" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Burkina Faso" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Burundi" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cambodia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cameroon" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Canada" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cape Verde" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cayman Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Central African Republic" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Chad" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Chile" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "China" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Christmas Island" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cocos (Keeling) Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Colombia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Comoros" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Congo" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Congo, The Democratic Republic of the" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cook Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Costa Rica" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cote D\"Ivoire" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Croatia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cuba" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Cyprus" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Czech Republic" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Denmark" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Djibouti" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Dominica" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Dominican Republic" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Ecuador" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Egypt" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "El Salvador" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Equatorial Guinea" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Eritrea" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Estonia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Ethiopia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Falkland Islands (Malvinas)" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Faroe Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Fiji" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Finland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "France" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "French Guiana" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "French Polynesia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "French Southern Territories" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Gabon" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Gambia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Georgia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Germany" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Ghana" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Gibraltar" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Greece" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Greenland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Grenada" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guadeloupe" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guam" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guatemala" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guernsey" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guinea" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guinea-Bissau" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Guyana" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Haiti" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Heard Island and Mcdonald Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Holy See (Vatican City State)" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Honduras" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Hong Kong" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Hungary" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Iceland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "India" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Indonesia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Iran, Islamic Republic Of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Iraq" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Ireland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Isle of Man" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Israel" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Italy" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Jamaica" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Japan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Jersey" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Jordan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Kazakhstan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Kenya" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Kiribati" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Korea, Democratic People\"S Republic of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Korea, Republic of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Kuwait" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Kyrgyzstan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Lao People\"S Democratic Republic" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Latvia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Lebanon" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Lesotho" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Liberia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Libyan Arab Jamahiriya" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Liechtenstein" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Lithuania" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Luxembourg" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Macao" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Macedonia, The Former Yugoslav Republic of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Madagascar" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Malawi" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Malaysia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Maldives" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mali" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Malta" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Marshall Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Martinique" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mauritania" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mauritius" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mayotte" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mexico" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Micronesia, Federated States of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Moldova, Republic of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Monaco" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mongolia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Montserrat" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Morocco" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Mozambique" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Myanmar" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Namibia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Nauru" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Nepal" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Netherlands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Netherlands Antilles" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "New Caledonia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "New Zealand" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Nicaragua" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Niger" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Nigeria" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Niue" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Norfolk Island" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Northern Mariana Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Norway" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Oman" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Pakistan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Palau" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Palestinian Territory, Occupied" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Panama" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Papua New Guinea" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Paraguay" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Peru" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Philippines" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Pitcairn" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Poland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Portugal" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Puerto Rico" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Qatar" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Reunion" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Romania" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Russian Federation" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "RWANDA" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Saint Helena" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Saint Kitts and Nevis" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Saint Lucia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Saint Pierre and Miquelon" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Saint Vincent and the Grenadines" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Samoa" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "San Marino" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Sao Tome and Principe" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Saudi Arabia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Senegal" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Serbia and Montenegro" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Seychelles" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Sierra Leone" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Singapore" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Slovakia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Slovenia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Solomon Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Somalia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "South Africa" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "South Georgia and the South Sandwich Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Spain" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Sri Lanka" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Sudan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Svalbard and Jan Mayen" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Swaziland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Sweden" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Switzerland" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Syrian Arab Republic" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Taiwan, Province of China" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Tajikistan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Tanzania, United Republic of" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Thailand" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Timor-Leste" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Togo" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Tokelau" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Tonga" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Trinidad and Tobago" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Tunisia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Turkey" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Turkmenistan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Turks and Caicos Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Tuvalu" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Uganda" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Ukraine" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "United Arab Emirates" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "United Kingdom" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "United States" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "United States Minor Outlying Islands" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Uruguay" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Uzbekistan" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Vanuatu" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Venezuela" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Viet Nam" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Virgin Islands, British" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Virgin Islands, U.S." : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Wallis and Futuna" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Western Sahara" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Yemen" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Zambia" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  }, 
+   "Zimbabwe" : {
+  "Legal": "NA",
+  "Notes": "NA"
+  } 
 }
