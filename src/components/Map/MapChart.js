@@ -17,7 +17,9 @@ const MapChart = (props) => {
 
   const HandleClick = (countryName) => {
     if (countryName !== null || countryName !== "") {
-      window.location.href = map_redirect + "country=" + countryName;
+      window.open( map_redirect + "country=" + countryName, '_blank').focus();
+
+
     } else {
       swal(
         "Oops!",
@@ -25,6 +27,7 @@ const MapChart = (props) => {
         "error"
       );
     }
+  };
   };
 
   return (

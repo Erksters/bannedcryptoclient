@@ -18,19 +18,6 @@ const Map = (props) => {
   console.log("window.location.hash", window.location.hash);
 
 
-  const HandleSubmit = () => {
-    if (countryName !== null) {
-      window.open( map_redirect + "country=" + countryName, '_blank').focus();
-
-
-    } else {
-      swal(
-        "Oops!",
-        "It looks like you didn't add a wallet address. Pleas try again",
-        "error"
-      );
-    }
-  };
 
   if (countryName === null) {
     return (
