@@ -14,6 +14,10 @@ const Map = (props) => {
   // const [countryName, setCountryName] = useState("United States");
   const [content, setContent] = useState("");
 
+  console.log("countryName", countryName);
+  console.log("params", params);
+
+
   const HandleSubmit = () => {
     if (countryName !== null) {
       window.location.href = map_redirect + "country=" + countryName;
@@ -36,7 +40,6 @@ const Map = (props) => {
     );
   }
 
-  console.log("countryName", countryName);
   return (
     <>
       <table>
