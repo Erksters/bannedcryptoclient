@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <Header />
       <div>
-        <Router basename="">
+        <Router >
           <Switch>
             {/* <Route path="/about" component={About} />
             
@@ -19,7 +19,7 @@ const App = () => {
             <Route path="/search" component={Search} />
             <Route path="/register" component={RegisterSketchyCrypto} />
             {/* <Route path="/Stats" component={Stats}/>  */}
-            <Route path="/" exact component={Home} />
+            <Route  exact path="/"  component={Home} />
           </Switch>
         </Router>
       </div>

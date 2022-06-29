@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { search_redirect } from "../../api";
 
 const Complete = (props) => {
   const { setUserFlow, WalletAddress, Coin } = props;

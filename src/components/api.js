@@ -7,3 +7,5 @@ export const post_complaint = base_url + "/api/insert_complaint";
 export const search_complaint = base_url + "/api/search_by_wallet_with_exact";
 
 export const search_redirect = "http://bannedcrypto.com/#/search?";
+
+export const map_redirect = "http://bannedcrypto.com/#/map?";

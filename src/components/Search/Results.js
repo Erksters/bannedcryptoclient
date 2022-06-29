@@ -12,7 +12,6 @@ const Results = (props) => {
       <table>
         <tr>
           <th>ID #</th>
-
           <th>Notes</th>
           <th>Date</th>
         </tr>
@@ -27,7 +26,7 @@ const Results = (props) => {
                   year: "numeric",
                   month: "2-digit",
                   day: "2-digit",
-                })}{" "}
+                })}
               </td>
             </tr>
           ))}

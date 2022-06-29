@@ -20,6 +20,9 @@ const NavigationBar = () => {
               <Nav.Link data-cy="search" href="/#/search">
                 Search
               </Nav.Link>
+              <Nav.Link data-cy="map" href="/#/map">
+                Map
+              </Nav.Link>
               <Nav.Link data-cy="register" href="/#/register">
                 Register
               </Nav.Link>
