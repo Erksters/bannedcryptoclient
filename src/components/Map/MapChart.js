@@ -27,7 +27,7 @@ const MapChart = (props) => {
         "error"
       );
     }
-  };
+  
   };
 
   return (
