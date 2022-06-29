@@ -40,8 +40,12 @@ const Search = () => {
       Coin !== undefined &&
       Coin !== 0
     ) {
-      window.location.href =
-        search_redirect + "wallet=" + WalletAddress + "&coin=" + Coin;
+      window
+        .open(
+          search_redirect + "wallet=" + WalletAddress + "&coin=" + Coin,
+          "_blank"
+        )
+        .focus();
     } else {
       swal(
         "Oops!",

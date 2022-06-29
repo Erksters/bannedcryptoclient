@@ -17,8 +17,6 @@ const Map = (props) => {
   console.log("countryName", countryName);
   console.log("window.location.hash", window.location.hash);
 
-
-
   if (countryName === null) {
     return (
       <>
