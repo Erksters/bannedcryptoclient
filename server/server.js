@@ -8,12 +8,12 @@ var app = express();
 app.use(formidable());
 app.use(cors());
 
-var connection = mysql.createConnection({
+var connection = mysql.createPool({
   host: "ls-f03221ff88128d4401cef40d51ea691e6f08dca4.cppsjjvfoag8.us-east-2.rds.amazonaws.com",
   user: "dbmasteruser",
   password: "x17L+;Uth18a%qi]O]6oa0nh%e^^Og%3",
   port: 3306,
-  database: "banned_crypto",
+  database: "banned_crypto"
 });
 
 connection.connect(function (err) {
