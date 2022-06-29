@@ -9,7 +9,7 @@ import ReactTooltip from "react-tooltip";
 import MapChart from "./MapChart";
 
 const Map = (props) => {
-  const params = new URLSearchParams(window.location.hash.substring(3));
+  const params = new URLSearchParams(window.location.hash.substring(5));
   const [countryName, setCountryName] = useState(params.get("country"));
   // const [countryName, setCountryName] = useState("United States");
   const [content, setContent] = useState("");
