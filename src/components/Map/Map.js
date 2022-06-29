@@ -20,7 +20,9 @@ const Map = (props) => {
 
   const HandleSubmit = () => {
     if (countryName !== null) {
-      window.location.href = map_redirect + "country=" + countryName;
+      window.open( map_redirect + "country=" + countryName, '_blank').focus();
+
+
     } else {
       swal(
         "Oops!",
