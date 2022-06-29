@@ -2,6 +2,7 @@ import React from "react";
 import swal from "sweetalert";
 import { map_redirect } from "../api";
 import MapData from "./Map.json";
+
 const Results = (props) => {
     const params = new URLSearchParams(window.location.hash.substring(9));
     const [countryName, setCountryName] = useState(params.get("country"));
